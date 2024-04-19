@@ -30,7 +30,6 @@ def validate_data(data):
 
     return True, None
 
-
 @app.route('/add', methods=['POST'])
 def add_data():
     data = request.get_json()
